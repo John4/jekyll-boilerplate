@@ -1,17 +1,14 @@
-title : John Martin
+title:
 tagline:
-author :
-  name : John Martin
-  email : johnjmartiniv@gmail.com
-  # github : username
-  twitter : johnjmartiniv
-  # feedburner : feedname
+author:
+  name:
+  email:
+  github:
+  twitter:
+  feedburner:
 
 
-# production_url : http://fourthjohn.com
-# logo:
-
-# url:         http://fourthjohn.com
+url:
 source:      .
 destination: ./_site
 plugins:     ./_plugins
@@ -21,19 +18,19 @@ exclude:     ['Gemfile', 'Gemfile.lock', 'README.md', 'wercker.yml']
 timezone:    nil
 
 # Show future posts
-future:      true
+future: true
 show_drafts: false
 limit_posts: 0
-pygments:    true
+highlighter: true
 
 relative_permalinks: true
 permalink: /blog/:title
 paginate_path: 'page:num'
 paginate: 10
 
-markdown:      kramdown
-markdown_ext:  markdown,mkd,mkdn,md
-textile_ext:   textile
+markdown: kramdown
+markdown_ext: markdown,mkd,mkdn,md
+textile_ext: textile
 
 excerpt_separator: "<!--more-->"
 
@@ -44,13 +41,13 @@ baseurl:     /
 lsi:         false
 
 collections:
-  - portfolio
+  portfolio:
+    output: true
+    relative_permalinks: true
+    permalink: /portfolio/:title/
 
-#
 # jekyll-assets: see more at https://github.com/ixti/jekyll-assets
-#
 assets:
-
   dirname: assets
   baseurl: /assets/
   sources:

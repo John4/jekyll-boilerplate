@@ -1,10 +1,17 @@
-jekyll-boilerplate
-===========
+# jekyll-boilerplate
 
-This is a jekyll boilerplate I use for new projects.
+This is a [Jekyll](https://jekyllrb.com/) boilerplate I use for new projects. You can use it, too!
 
--  jekyll assets
+### This guy is ready with:
+
+-  [Jekyll assets](https://github.com/jekyll/jekyll-assets)
 -  sass
 -  coffeescript
--  twitter bootstrap
--  a portfolio container instead of blog posts
+-  a portfolio collection
+
+### Development
+
+This is locked at the latest stable release of Jekyll 2 (2.5.3). Jekyll 2 requires Ruby 1.9.3+.
+
+- `bundle install`
+- `bundle exec jekyll serve --watch`
